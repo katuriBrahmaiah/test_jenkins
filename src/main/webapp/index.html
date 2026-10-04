@@ -1,1 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>NexusShop</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        NexusShop
+    </div>
+
+    <nav>
+
+        <a href="#">Home</a>
+
+        <a href="#products">
+            Products
+        </a>
+
+        <a href="#contact">
+            Contact
+        </a>
+
+    </nav>
+
+</header>
+
+
+<section class="hero">
+
+    <h1>
+        Welcome to NexusShop
+    </h1>
+
+    <p>
+        Simple shopping. Quality products.
+    </p>
+
+    <a href="#products"
+       class="button">
+        Shop Now
+    </a>
+
+</section>
+
+
+<section id="products"
+         class="products">
+
+    <h2>
+        Our Products
+    </h2>
+
+    <div class="product-container">
+
+
+        <div class="product">
+
+            <div class="icon">
+                💻
+            </div>
+
+            <h3>
+                Laptop
+            </h3>
+
+            <p>
+                Powerful laptop for work and entertainment.
+            </p>
+
+            <button onclick="addToCart('Laptop')">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <div class="product">
+
+            <div class="icon">
+                🎧
+            </div>
+
+            <h3>
+                Headphones
+            </h3>
+
+            <p>
+                Wireless headphones with great sound.
+            </p>
+
+            <button onclick="addToCart('Headphones')">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <div class="product">
+
+            <div class="icon">
+                ⌚
+            </div>
+
+            <h3>
+                Smart Watch
+            </h3>
+
+            <p>
+                Stay connected and track your activity.
+            </p>
+
+            <button onclick="addToCart('Smart Watch')">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<footer id="contact">
+
+    <p>
+        NexusShop © 2026
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
