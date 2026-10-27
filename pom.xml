@@ -11,7 +11,7 @@
 
     <artifactId>nexus-shop</artifactId>
 
-    <version>15.0</version>
+    <version>13.0</version>
 
     <packaging>war</packaging>
 
